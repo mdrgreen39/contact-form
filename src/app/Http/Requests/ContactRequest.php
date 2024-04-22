@@ -34,7 +34,7 @@ class ContactRequest extends FormRequest
     {
         return [
             'name.required' => '名前を入力してください',
-            'name.string' =>'名前を文字列で入力してください',
+            'name.string' => '名前を文字列で入力してください',
             'name.max' => '名前を255文字以下で入力してください',
             'email.required' => 'メールアドレスを入力してください',
             'email.string' => 'メールアドレスを文字列で入力してください',
